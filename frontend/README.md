@@ -1,12 +1,54 @@
-# React + Vite
+# 📊 AI-Powered Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack web application that enables users to upload datasets (e.g., CSV), visualize the data, and receive intelligent AI-driven insights powered by Google Gemini Pro API.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
+![Gemini](https://img.shields.io/badge/AI-Gemini_Pro-ff69b4?logo=google)
+![Vite](https://img.shields.io/badge/Build-Vite-purple?logo=vite)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [Click here to explore the live dashboard](https://your-deployment-url.vercel.app)
+
+---
+
+## 📦 Features
+
+- 📂 **CSV Upload**: Upload CSV files directly from the browser
+- 📈 **Data Visualization**: View parsed dataset in tabular format
+- 🤖 **AI Insights**: Summarize key patterns, trends, and anomalies using Google Gemini API
+- ⚙️ **Backend API**: Express.js server handles file upload, parsing, and API interaction
+- 💡 **Clean UI**: Modern, responsive layout built with plain CSS and React
+- 🔐 **.env Protection**: Environment variables are secured with `.gitignore`
+
+---
+
+## 🧠 AI Usage Summary
+
+- **Gemini Pro API** used to generate:
+  - Smart summaries from uploaded data
+  - Business/marketing insights from raw datasets
+- **ChatGPT** was used for:
+  - Frontend architecture planning
+  - Backend API design
+  - Code debugging and optimizations
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Tools / Frameworks                    |
+|-------------|----------------------------------------|
+| Frontend    | React, Vite, Axios, HTML, CSS          |
+| Backend     | Node.js, Express.js, Multer, csv-parser|
+| AI          | Gemini Pro (Google AI API)             |
+| Deployment  | GitHub, Vercel (or Netlify)            |
+
+---
+
+## 📂 Project Structure
+
