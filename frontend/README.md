@@ -51,4 +51,19 @@ A modern full-stack web application that enables users to upload datasets (e.g.,
 ---
 
 ## 📂 Project Structure
-
+├── client/ # Vite-based React frontend
+│ ├── src/
+│ │ ├── components/
+│ │ └── App.jsx
+│ └── index.html
+├── server/ # Express backend
+│ ├── index.js
+│ └── routes/
+├── .env # API keys 
+├── .gitignore
+└── README.md
+📝 License
+This project is licensed under the MIT License.
+🤝 Credits
+Built with ❤️ using React, Node.js, and Gemini AI
+Contributed as part of the ADmyBRAND AI Challenge.
