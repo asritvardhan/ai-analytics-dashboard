@@ -62,8 +62,14 @@ A modern full-stack web application that enables users to upload datasets (e.g.,
 ├── .env # API keys 
 ├── .gitignore
 └── README.md
+
+
+
+
 📝 License
 This project is licensed under the MIT License.
+
+
 🤝 Credits
 Built with ❤️ using React, Node.js, and Gemini AI
 Contributed as part of the ADmyBRAND AI Challenge.
