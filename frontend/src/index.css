@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1e1e2f;
+  color: #fff;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.sidebar h2 {
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 0.8rem 0;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.navbar {
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.kpi-container {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.kpi-box {
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  flex: 1;
+  text-align: center;
+}
+
+.chart-card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.upload-section {
+  margin: 2rem 0;
+}
+
+.insights {
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
